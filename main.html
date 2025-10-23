@@ -6,7 +6,85 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
+<title>HTML Assignment 3</title>
+    <style>
+        .middle {
+            border-collapse: collapse;
+        }
+
+        table.middle, table.middle th, table.middle td {
+            border: 1px solid black;
+            spacing: 1px;
+            padding: 1px;
+        }
+
+        .green {
+            background-color: green;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        th, td {
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
+    <h2 style="text-align: center;">HTML Assignment #3</h2>
+    
+    <!-- Table 1 -->
+    <table id="table-1" class="middle" style="width: 100%;">
+        <tr>
+            <td id="t11" style="text-align: left;">left</td>
+            <td id="t12" style="text-align: center;">center</td>
+            <td id="t13" style="text-align: right;">right</td>
+        </tr>
+    </table>
+    <br />
+
+    <!-- Table 2 -->
+    <table id="table-2" class="middle" style="width: 100%;">
+        <tr>
+            <td id="t21" colspan="6"></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+    <br />
+
+    <!-- Table 3 -->
+    <table id="table-3" class="middle" style="width: 100%;">
+        <tr class="green">
+            <td colspan="3"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td id="t-image">
+                <img src="https://www.htmlcsscolor.com/preview/gallery/FF5733.png" alt="Image" style="width: 200px;" />
+            </td>
+            <td></td>
+        </tr>
+        <tr class="blue">
+            <td colspan="3"></td>
+        </tr>
+    </table>
+
+
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
